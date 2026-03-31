@@ -1,0 +1,33 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=production
+    depends_on:
+      - pocketbase
+    networks:
+      - supplesphere
+    restart: unless-stopped
+
+  pocketbase:
+    image: ghcr.io/muchobien/pocketbase:latest
+    ports:
+      - "8090:8090"
+    volumes:
+      - pb_data:/pb/pb_data
+    networks:
+      - supplesphere
+    restart: unless-stopped
+
+networks:
+  supplesphere:
+    driver: bridge
+
+volumes:
+  pb_data:
