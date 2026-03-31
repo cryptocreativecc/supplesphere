@@ -12,6 +12,8 @@ COPY . .
 
 ENV NEXT_TELEMETRY_DISABLED=1
 ENV NODE_ENV=production
+ENV NEXT_PUBLIC_POCKETBASE_URL=https://pb-underground.codemash.dev
+ENV NEXT_PUBLIC_SITE_URL=https://underground.codemash.dev
 
 RUN bun run build
 
