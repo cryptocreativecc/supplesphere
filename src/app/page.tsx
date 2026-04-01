@@ -16,8 +16,8 @@ const topSources = [
 
 const feedPosts = [
   {
-    id: "1",
-    community: "a/sourcereviews",
+    id: "post-1",
+    community: "sourcereviews",
     title: "SupplementHQ review — fast delivery, legit products",
     body: "Ordered creatine monohydrate and whey protein last week. Arrived in 2 days, well packaged. Both products had batch codes that checked out. Will order again.",
     author: "ProteinPete",
@@ -29,8 +29,8 @@ const feedPosts = [
     rating: 5,
   },
   {
-    id: "2",
-    community: "a/supplementreviews",
+    id: "post-2",
+    community: "supplementreviews",
     title: "Optimum Nutrition Gold Standard Whey — Still the GOAT?",
     body: "Been using ON Gold Standard for years but recently tried a few alternatives. Here's my honest comparison after 3 months of testing different brands...",
     author: "FitReviewer",
@@ -43,8 +43,8 @@ const feedPosts = [
     brand: "Optimum Nutrition",
   },
   {
-    id: "3",
-    community: "a/sourcetalk",
+    id: "post-3",
+    community: "sourcetalk",
     title: "Best UK sources for nootropics in 2026?",
     body: "Looking for reliable UK-based sources for nootropics. Specifically interested in Lion's Mane and Ashwagandha KSM-66. What are people using?",
     author: "BrainGains",
@@ -55,8 +55,8 @@ const feedPosts = [
     type: "discussion",
   },
   {
-    id: "4",
-    community: "a/sourcereviews",
+    id: "post-4",
+    community: "sourcereviews",
     title: "Warning: Avoid NutriScam.co — possible counterfeit products",
     body: "Ordered what was supposed to be branded creatine but the packaging looked off. Sent it for testing and the results were concerning...",
     author: "SafeSupps",
